@@ -22,7 +22,10 @@ This repository demonstrates the usage of PDO (PHP Data Objects) with AJAX for c
 
 2. Configure your web server to point to the project directory.
 
-3. Create a table named *crud_pdo* inside your MySQL database using the following code.
+3. Create a table named *users* inside your database *crud_pdo* using the following code.   
+```sql
+CREATE DATABASE crud_pdo;
+```
 
 ```sql
 CREATE TABLE `users` (
